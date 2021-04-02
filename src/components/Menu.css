@@ -1,0 +1,30 @@
+menu {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 220px;
+}
+
+img {
+  width:130px;
+  grid-column:1/2;
+  margin:25px 60px;
+}
+
+ul{
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+  grid-column: 3/4;
+  list-style-type:none;
+}
+
+button {
+  grid-column:4/5 ;
+  width:150px;
+  height:50px;
+  margin:25px 60px;
+  border-radius:30px;
+  justify-self:end;
+  margin-right:60px;
+  background: white;
+
+}
