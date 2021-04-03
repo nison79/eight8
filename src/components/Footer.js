@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/images/logo@2x.png'
+import Logo from '../assets/images/logo-white.svg'
 import Facebook from '../assets/images/face.png'
 import Instagram from '../assets/images/inst.png'
 import linkedIn from '../assets/images/link.png'

@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/images/logo@2x.png'
+import Logo from '../assets/images/logo.svg'
 import '../components/Menu.css'
 
 const Menu = () => {

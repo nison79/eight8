@@ -7,21 +7,28 @@
   min-height: 40vh;;
 }
 
+.footer-wrapper img {
+  z-index: 2;
+  margin-top:6rem;
+}
+
 .menu-again {
   color:white;
   padding:2rem;
   font-family: 'Open Sans' ,sans-serif;
+  margin-bottom:2rem;
 }
 .menu-again li {
-  padding-right:8rem;
+  padding-right:4rem;
 }
 
 .social {
   padding:2rem;
 }
 .social img {
+  margin-top:2rem;
   width:30px;
-  margin:30px;
+  margin:20px;
 }
 
 .social .facebook-icon {
