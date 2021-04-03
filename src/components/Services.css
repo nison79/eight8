@@ -1,0 +1,41 @@
+.wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  display:flex;
+  align-items: center;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  min-height:40vh;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  min-height: 30vh;
+  padding: 0rem 1rem;
+}
+
+.services-box{
+  display:grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 40px 20px 1fr;
+  place-items: center;
+  /* justify-self: center; */
+  text-align: center;
+  padding:0rem 1rem;
+}
+
+.services-box p {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  justify-self: start;
+  color:#8C9398;
+}
+
+.services-box > .divider {
+  width:50px;
+}

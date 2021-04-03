@@ -6,7 +6,7 @@ const Menu = () => {
   return (
     <div>
       <menu>
-        <img src={Logo} />
+        <img src={Logo} alt="logo of eight8 agency"/>
         <ul>
           <li>Home</li>
           <li>Key Features</li>
