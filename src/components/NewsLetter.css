@@ -1,5 +1,5 @@
 .newsletter-wrapper {
-  min-height: 30vh;
+  min-height: 55vh;
   display:flex;
   justify-content: center;
   align-items: center;  
@@ -13,11 +13,13 @@
 }
 
 .newsletter-elements img {
-width:25px;
+width:30px;
 }
 
 .newsletter-elements h5 {
   color:white;
+  font-size: larger;
+  letter-spacing: 3px;;
   text-transform: uppercase;
   margin-bottom:0.5rem;
   font-weight: 400;
