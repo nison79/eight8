@@ -1,9 +1,15 @@
 .header-wrapper {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: center;
-  min-height: 45vh;
-  background-color: bisque;
+  min-height: 60vh;
+  width:1000px;
+  position:absolute;
+  left:400px;
+  top:0px;
+  z-index: 20;
+
+  
 }
 
 .action {
@@ -28,4 +34,5 @@
   letter-spacing:2px;
   color:white;
   background-color: #EB8383;
+  cursor:pointer;
 }
