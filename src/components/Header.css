@@ -1,0 +1,31 @@
+.header-wrapper {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  min-height: 45vh;
+  background-color: bisque;
+}
+
+.action {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.action h2 {
+  font-family: 'Open Sans',sans-serif;
+  font-size:3.3rem;
+  color:white;
+  text-align: center;
+}
+
+.header-button {
+  border:none;
+  border-radius: 5px;
+  width:180px;
+  height:60px;
+  font-size: 1.1rem;
+  letter-spacing:2px;
+  color:white;
+  background-color: #EB8383;
+}
