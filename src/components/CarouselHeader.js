@@ -12,21 +12,21 @@ const CarouselHeader = () => {
       <Carousel>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 m-0"
       src={Img1}
       alt="mountains"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 m-0"
       src={Img2}
       alt="forest"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 m-0"
       src={Img3}
       alt="stars galaxy "
     />
