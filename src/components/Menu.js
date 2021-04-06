@@ -14,7 +14,7 @@ const Menu = () => {
           <li>Testimonial</li>
           <li>FAQ</li>
         </ul>
-          <button>Login Here</button>
+          <button className="menu-button">Login Here</button>
       </menu>
     </div>
   )

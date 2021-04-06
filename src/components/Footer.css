@@ -39,3 +39,28 @@
   color:white;
   padding:4rem;
 }
+
+@media(max-width:740px) {
+  .menu-again {
+    margin:0;
+    padding:1rem;
+  }
+  .menu-again li{
+    padding:0.2rem;
+    margin:0.2rem;
+  }
+  .footer-wrapper img{
+    margin-top:2rem;
+    width:60px;
+  }
+  .social{
+    padding:0rem;
+  }
+  .footer-elements{
+    padding:1.5rem;
+    font-size: 0.2rem;;
+  }
+  .social img {
+    width:20px;
+  }
+}

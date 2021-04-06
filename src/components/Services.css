@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom:2rem;
 }
 .title {
   display:flex;
@@ -52,4 +53,47 @@
 
 .services-box > .divider {
   width:50px;
+}
+
+@media(max-width:1180px) {
+  .services-box img {
+    width:100px;
+  }
+  .services-box {
+    grid-template-columns: 250px ;
+  }
+  .title {
+    letter-spacing: 3px;
+    font-size: 1rem;;
+  }
+  .services-box p {
+    line-height: 1.2rem;
+    font-size:1rem;
+    padding-bottom: 24px;;
+    padding-top:24px;
+  }
+  
+}
+
+@media(max-width:890px){
+  .services{
+    display: flex;
+    flex-direction: column;
+  }
+  .services-box {
+    display:flex;
+    flex-direction: column;
+
+  }
+  .services-box p {
+    width:200px;
+    font-size:0.8rem;
+  }
+  .services-box img{
+    padding-bottom: 1.2rem;;
+  }
+  .title {
+    letter-spacing: 3px;
+    font-size: 0.9rem;;
+  }
 }

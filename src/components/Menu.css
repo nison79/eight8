@@ -23,7 +23,7 @@ li {
   margin-left:38px;
 }
 
-button {
+.menu-button {
   font-family:'Open Sans';
   grid-column:4/5 ;
   width:150px;
@@ -33,5 +33,70 @@ button {
   justify-self:end;
   margin-right:60px;
   background: white;
+  transition:ease 300ms
 
+}
+
+.menu-button:hover {
+  background-color: black;
+  color:white;
+  transform: scale(0.8);
+}
+
+@media(max-width:1040px) {
+  menu {
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: auto;
+  }
+  img {
+    width:80px;
+    margin:5px;
+    padding:0;
+    padding-top:1.2rem;
+  }
+  .menu-button{
+    width:100px;
+    margin:15px 30px;
+  }
+}
+
+@media(max-width:720px) {
+  img {
+    width:60px;
+    margin:5px 10px;
+    padding:0;
+    padding-top:1rem;
+  }
+  .menu-button{
+    width:80px;
+    height:35px;
+    margin:15px 30px;
+    font-size:0.7rem;
+  }
+  li {
+    font-size:0.8rem;
+    
+    margin-left:28px;
+  }
+  
+}
+
+@media(max-width:580px) {
+  img {
+    width:40px;
+    margin:5px 10px;
+    padding:0;
+    padding-top:1.2rem;
+  }
+  li {
+    font-size:0.5rem;
+    
+    margin-left:28px;
+  }
+  .menu-button{
+    width:60px;
+    height:35px;
+    margin:15px 30px;
+    font-size:0.5rem;
+  }
 }
