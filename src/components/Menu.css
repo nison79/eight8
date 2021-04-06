@@ -1,7 +1,8 @@
 menu {
   display:grid;
   grid-template-columns: 1fr 100px 1fr 220px;
-  font-family:'Open Sans'
+  font-family:'Open Sans';
+  
 }
 
 img {
@@ -16,6 +17,7 @@ ul{
   justify-content: flex-end;
   grid-column: 3/4;
   list-style-type:none;
+  margin-bottom: 0 !important;;
   
 }
 
@@ -83,20 +85,20 @@ li {
 
 @media(max-width:580px) {
   img {
-    width:40px;
-    margin:5px 10px;
+    width:35px;
+    /* margin:5px 10px; */
     padding:0;
     padding-top:1.2rem;
   }
   li {
-    font-size:0.5rem;
+    font-size:0.4rem;
     
     margin-left:28px;
   }
   .menu-button{
     width:60px;
-    height:35px;
-    margin:15px 30px;
+    height:25px;
+    /* margin:15px 30px; */
     font-size:0.5rem;
   }
 }
